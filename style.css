@@ -1,0 +1,71 @@
+body {
+  background-color: blue;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin: 20px;
+}
+nav .left {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+nav .right a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: rgb(240, 225, 225);
+  text-decoration: none;
+  padding: 20px;
+}
+nav .right a:first-child {
+  background-color: grey;
+  color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.logo-text {
+  gap: 30px;
+}
+
+nav .left i {
+  width: 40px;
+  font-size: 30px;
+}
+nav .right button {
+  background-color: rgb(209, 60, 60);
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+  color: white;
+}
+section .head h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+section .head h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+section .head p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+section {
+  margin-top: 12rem;
+  color: white;
+  margin-left: 25px;
+  display: flex;
+  gap: 35rem;
+}
+section .class {
+  flex: 2px;
+}
+section img{
+    width: 350px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
